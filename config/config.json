@@ -1,0 +1,20 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "info-path-to-sharepoint-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/infoPathToSharepoint/InfoPathToSharepointWebPart.js",
+          "manifest": "./src/webparts/infoPathToSharepoint/InfoPathToSharepointWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "InfoPathToSharepointWebPartStrings": "lib/webparts/infoPathToSharepoint/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js",
+    "PropertyControlStrings": "node_modules/@pnp/spfx-property-controls/lib/loc/{locale}.js"
+  }
+}
