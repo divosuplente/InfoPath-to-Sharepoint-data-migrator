@@ -1,8 +1,6 @@
 import React,{useState} from 'react';
 
 
-const Migrator = () => {
-
-}
+const Migrator = () => (<div></div>);
 
 export default Migrator;
