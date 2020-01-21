@@ -1,13 +1,13 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
-  "solution": {
-    "name": "iptosp",
-    "id": "1bd37720-e240-4a68-b3bc-1f199d3abefa",
-    "version": "1.0.0.0",
-    "includeClientSideAssets": true,
-    "isDomainIsolated": false
-  },
-  "paths": {
-    "zippedPackage": "solution/iptosp.sppkg"
-  }
+    "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+    "solution": {
+        "name": "iptosp",
+        "id": "1bd37720-e240-4a68-b3bc-1f199d3abefa",
+        "version": "1.0.0.1",
+        "includeClientSideAssets": true,
+        "isDomainIsolated": false
+    },
+    "paths": {
+        "zippedPackage": "solution/iptosp.sppkg"
+    }
 }
